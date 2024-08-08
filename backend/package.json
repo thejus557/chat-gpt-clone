@@ -1,0 +1,30 @@
+{
+	"name": "chat-with-ai",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/index.js",
+		"dev": "nodemon src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "npx @biomejs/biome format --write ./src",
+		"lint": "npx @biomejs/biome lint --write ./src --fix",
+		"check": "npx @biomejs/biome check --write ./src",
+	},
+	"keywords": [],
+	"author": "surya teja kandukuru",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/express": "^4.17.21",
+		"@types/node": "^22.1.0",
+		"nodemon": "^3.1.4",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
+}
