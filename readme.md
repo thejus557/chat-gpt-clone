@@ -61,6 +61,8 @@ The project structure is organized as follows:
 You can customize the project configuration i nthe `tsconfig.json` file and adjust the server settings in the `src/index.ts` file.
 
 
+### Mongodb Setup is coming soon.
+
 # Frontend
 
 # React + TypeScript + Rspack + Tailwind CSS + Biomejs
