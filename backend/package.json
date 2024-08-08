@@ -4,13 +4,13 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx tsc",
+		"build": "pnpx tsc",
 		"start": "node dist/index.js",
 		"dev": "nodemon src/index.ts",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"format": "npx @biomejs/biome format --write ./src",
-		"lint": "npx @biomejs/biome lint --write ./src --fix",
-		"check": "npx @biomejs/biome check --write ./src",
+		"format": "pnpx @biomejs/biome format --write ./src",
+		"lint": "pnpx @biomejs/biome lint --write ./src",
+		"check": "pnpx @biomejs/biome check --write ./src"
 	},
 	"keywords": [],
 	"author": "surya teja kandukuru",
