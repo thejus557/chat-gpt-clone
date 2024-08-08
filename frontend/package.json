@@ -1,0 +1,33 @@
+{
+	"name": "frontend",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development rspack serve",
+		"build": "cross-env NODE_ENV=production rspack build",
+		"format": "pnpx @biomejs/biome format --write ./src",
+		"lint": "pnpx @biomejs/biome lint --write ./src",
+		"check": "pnpx @biomejs/biome check --write ./src"
+	},
+	"dependencies": {
+		"postcss-cli": "^11.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@rspack/cli": "1.0.0-beta.3",
+		"@rspack/core": "1.0.0-beta.3",
+		"@rspack/plugin-react-refresh": "1.0.0-beta.3",
+		"@types/react": "^18.2.48",
+		"@types/react-dom": "^18.2.18",
+		"autoprefixer": "^10.4.20",
+		"cross-env": "^7.0.3",
+		"postcss": "^8.4.41",
+		"postcss-loader": "^8.1.1",
+		"react-refresh": "^0.14.0",
+		"tailwindcss": "^3.4.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}
